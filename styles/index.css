@@ -1,0 +1,221 @@
+*{
+    font-family: "Open Sans", serif;
+    /* margin: 0px; */
+
+}
+.h1{
+    text-align: center;
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+}
+header>nav,.name_dp_nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8em ;
+    
+}
+header>nav>ul{
+    display: flex;
+    margin-right: 10em;
+    gap: 20px;
+}
+header>nav>ul>p{
+    color:#474747;
+}
+button{
+    background-color: #FD6E0A;
+    color: white;
+    width:130px;
+    height: 44px;
+    border: none;
+    font-weight: 600;
+}
+button:hover{
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+header>nav>h1>span{
+    color: #FD6E0A;
+}
+header{
+    background-color: rgb(255, 248, 243);
+    Width: auto;
+    Height: 520px;
+    
+    margin-left: 0px;
+    background-image: url(../portfolio-resources/images/developer.png),url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 65px,600px;
+    background-position: left,right bottom;
+}
+.dp{
+    width: 27em;
+    height: 27em;
+    margin-bottom: 0px;
+    padding-right: 5%;
+    position: relative;
+    top: 2px;
+}
+
+/* about me section */
+#about_me_sec{
+    margin: 5em;
+    background-color: rgb(255, 248, 243);
+    height: 57vh;
+    text-align: center;
+}
+.about_below{
+    display: flex;
+    padding: 10px 10%;
+    justify-content: space-around;
+}
+.about_me_div{
+    margin: 7%;
+    margin-top: 7%;
+    background-color: white;
+    position: relative;
+    top: 19%;
+    
+}
+
+.about_me_div h1{
+    color: rgb(24, 24, 24);
+}
+.about_me_div p, .about_child_hd{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.about_child_ans{
+    color:  rgb(117, 117, 117);
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/**What I do**/
+.what_I_do{
+    display: flex;
+    flex-direction: column;
+}
+.what_I_do>p{
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    text-align: center;
+    margin: 1% 15%;
+}
+.skills{
+    display: flex;
+    margin: 2% 9%;
+    gap: 2%;
+
+    
+}
+.skills div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
+    width: 13em;
+    height: 17em;
+    justify-content: space-between;
+    
+
+}
+.skills div img{
+    width: 30px;
+}
+
+/**summary section**/
+.summary_sec_main_div{
+    display: flex;
+    margin: 5% 10%;
+    gap: 20px;
+
+
+}
+.summary_sec_child_div h2{
+    color: rgb(52, 52, 52);
+    margin-bottom: 0px;
+    font-weight: 700;
+
+}
+.summary_sec_child_div h3{
+    color: rgb(71, 71, 71);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+.summary_sec_child_div h6{
+    color: rgb(117, 117, 117);
+    margin-bottom: 0px;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.summary_sec_child_div p{
+    color: rgb(117, 117, 117);
+    font-size: 13px;
+    width: 40em;
+   
+}
+hr{
+    color: rgb(117, 117, 117);
+}
+.summary_sec button{
+    margin: 2% 45%;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    gap:5%;
+    justify-content: space-evenly;
+}
+footer>div{
+    padding: 7em 5em;
+}
+footer>div p{
+    width: 75%;
+    font-size: 14px;
+}
+footer>div ul{
+    display: flex;
+    list-style: none;
+    gap: 3%;
+    padding-left: 0px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+input{
+    width: 38em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding-left: 3px;
+    
+}
+input::placeholder{
+    padding: 4px;
+}
+.message{
+    width: 38em;
+    height: 7em;
+    border-radius: 5px;
+    border: none;
+
+}
+.message::placeholder{
+    position: relative;
+    top: -38px;
+
+}
